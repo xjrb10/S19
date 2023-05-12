@@ -49,7 +49,7 @@ function gradeAverage(...grades) {
 }
 
 let grades = [];
-for (let i = 1; i <= 5; i++) {
+for (let i = 1; i <= 4; i++) {
 	grades.push(parseInt(prompt(`Enter grade#${i}:`)));
 }
 gradeAverage(...grades);
