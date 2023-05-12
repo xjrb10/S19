@@ -26,7 +26,7 @@ function login() {
   }
 }
 
-// login();
+login();
 
 function gradeLetter(grade) {
 	if (grade >= 96) return "A+";
